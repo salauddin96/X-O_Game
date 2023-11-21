@@ -152,7 +152,7 @@ class MainActivity : AppCompatActivity() {
                 //getting the current score of user o
                 val oPoint = binding.boardOCount.text.toString().toInt()
                 //Increasing the score
-                binding.boardXCount.text = (oPoint + 1).toString()
+                binding.boardOCount.text = (oPoint + 1).toString()
 
             }
             TAG_RESET->{
